@@ -75,9 +75,9 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <addClassPath>true</addClassPath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainclass>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</mainclass>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</mainClass>
                         </manifest>
                         <manifestEntries>
                             <Rsrc-Main-Class>com.javarush.games.racer.RacerGame</Rsrc-Main-Class>
